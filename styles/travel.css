@@ -4,3 +4,221 @@
 *{
     font-family: 'Mulish', sans-serif;
 }
+
+/* header style */
+
+header{
+    padding: 40px 135px;
+}
+.nav-div{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.nav-img{
+    height: 65px;
+}
+.nav-heading{
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-span1{
+    color: #ff5400;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 40px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+nav li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+}
+.nav-li{
+    color: #ff5400;
+    font-weight: 700;
+}
+.banner-input{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    align-items: center;
+    padding: 16px;
+    margin: 60px;
+}
+.banner-input input, select, .find-now{
+    padding-left: 10px;
+    width: 23%;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+}
+.find-now{
+    text-align: center;
+    color: white;
+    background: #ff5400;
+}
+.parent{
+    padding: 130px;
+}
+.banner{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.banner-content{      
+    text-align: center;
+    color: #fff;
+}
+
+/* main style */
+
+main{
+    max-width: 1230px;
+    margin: 70px auto;
+}
+
+.popular{
+    display: flex;
+    align-items: center;
+}
+.btn-popular{
+    border-radius: 8px;
+    color: #fff;
+    background: #ff5400;
+    padding: 10px 15px;
+    border: none;
+}
+.grid{
+    margin-top: 130px;
+    text-align: center;
+}
+.flex{
+    margin-top: 90px;
+    display: grid;
+}
+.new-border{
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+}
+.border1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    display: flex;
+    height: 284px;
+    gap: 30px;
+}
+.new-border1{
+    padding: 40px 20px 0px 20px;
+    background-color: rgba(251, 181, 99, 0.05);
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.new-border2{
+    padding: 40px 20px 0px 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.border2{
+    padding: 50px 20px 0px 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    justify-content: center;
+    width: 50%;
+    margin: 30px auto;
+    height: 250px;
+}
+.border-x{
+    margin-top: 100px;
+    justify-content: space-between;
+    border-radius: 16px;
+    /* border: 1px solid rgba(251, 181, 99, 0.20); */
+    display: flex;
+    height: 284px;
+    gap: 30px;
+}
+.last-border1{
+    padding: 40px 20px 0px 20px;
+    background-color: #fff;
+    /* border-radius: 16px; */
+    border: 1px solid #ff5400;
+    border-radius: 16px;
+    /* background: rgba(251, 181, 99, 0.05); */
+    height: 380px;
+}
+.block{
+    margin-top: 50px;
+}
+.first-div{
+    margin: 20px;
+}
+.second-div{
+    margin: 20px;
+}
+.third-div{
+    margin: 20px;
+}
+.footer-container{
+    max-height: 250px;
+    margin-top: 300px;
+    padding: 180px;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer1{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.footer2{
+    margin-top: 30px;
+}
+.footer3{
+    margin-top: 50px;
+}
+.footer4{
+    margin-top: 100px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    header{
+        padding: 20px;
+    }
+    .nav-div, nav, .banner-input{
+        flex-direction: column;
+        padding: 10px;
+    }
+    nav>ul{
+        flex-direction: column;
+    }
+    .popular{
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
