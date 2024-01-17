@@ -52,6 +52,9 @@ nav li a{
     color: #ff5400;
     font-weight: 700;
 }
+.none{
+    display: none;
+}
 .explore{
     margin-top: 80px;
 }
@@ -160,7 +163,6 @@ main{
     margin-top: 100px;
     justify-content: space-between;
     border-radius: 16px;
-    /* border: 1px solid rgba(251, 181, 99, 0.20); */
     display: flex;
     height: 284px;
     gap: 30px;
@@ -168,10 +170,8 @@ main{
 .last-border1{
     padding: 40px 20px 0px 20px;
     background-color: #fff;
-    /* border-radius: 16px; */
     border: 1px solid #ff5400;
     border-radius: 16px;
-    /* background: rgba(251, 181, 99, 0.05); */
     height: 380px;
 }
 .block{
@@ -215,11 +215,8 @@ main{
     header{
         padding: 20px;
     }
-    .nav-div, nav, .banner-input{
+    .banner-input{
         flex-direction: column;
-        padding: 10px;
-        gap: 10px;
-        width: 50%;
     }
     nav>ul{
         flex-direction: column;
@@ -231,9 +228,6 @@ main{
     }
     .popular-text{
         margin: 0 50px;
-    }
-    .popular-img{
-        
     }
     .margin{
         margin: 0 50px;
@@ -282,8 +276,15 @@ main{
     .last1{
         width: 230%;
     }
+    .last2{
+        display: none;
+    }
+    .none{
+        display: block;
+    }
     .banner{
         width: 230%;
         margin-left: 25px;
+        margin-top: 30px;
     }
 }
